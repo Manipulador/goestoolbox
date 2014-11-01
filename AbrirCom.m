@@ -26,6 +26,7 @@ while ok == 0
 end
 %Abrindo porta escolhida
 s = serial(ser.AvailableSerialPorts{index}(:));
+disp('Porta Aberta!')
 fopen(s);
 end
         
